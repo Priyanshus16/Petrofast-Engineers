@@ -1,0 +1,25 @@
+/* header */
+
+.dropdown .open {
+  background-color:#F6E3A7;
+}
+/* footer */
+
+#footer{
+  background-color: #B00000;
+}
+li{
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* Imagecomponent */
+.mainimage{
+  margin: 20px 0px;
+}
+.image-top{
+  width: 95%;
+  height: relative;
+}
+
+/* carousel */

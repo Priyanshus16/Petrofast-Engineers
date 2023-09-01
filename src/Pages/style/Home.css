@@ -1,0 +1,122 @@
+/* FEATURES */
+
+@media screen and (max-width:1000px) {
+    .featurebox {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+  
+  
+  /* PRODUCT GALLERY */
+  .stories{
+    margin-bottom: 30px;
+  }
+  .storiesMainBox {
+      margin-top:50px;
+      display: flex;
+  }
+  
+  .storiesubbox {
+      margin-top: -200px;
+      width: 100%;
+  }
+  
+  .storiessubbox1 {
+    width: 100%;
+  }
+  
+  .storiesBox1 {
+      margin-left: 130px;
+      width: 350px;
+      height: 430px;  
+      transform:
+      perspective(800px);
+      
+    transition: transform 1s ease 0s;
+    border-radius: 4px;
+    box-shadow:
+      rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+      rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+      rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+  
+  }
+  .storiesBox2 {
+      width: 430px;
+      height: 400px;  
+      margin-top: 50px;
+      margin-right:200px;
+      transform:
+      perspective(800px);
+      
+    transition: transform 1s ease 0s;
+    border-radius: 4px;
+    box-shadow:
+      rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+      rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+      rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+  
+  }
+  .storiesBox3 {
+      width: 350px;
+      height: 330px; 
+      margin-top: 20px; 
+      margin-right:270px;
+      transform:
+      perspective(800px);
+      
+    transition: transform 1s ease 0s;
+    border-radius: 4px;
+    box-shadow:
+      rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+      rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+      rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+  
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .storiesMainBox {
+      flex-direction: column;
+      margin: 0px;
+      
+    }
+    .storiesubbox {
+      margin-top: 0px;
+      
+    }
+  
+    .storiesubbox1 {
+      justify-content: center;
+    }
+    .storiesBox1 {
+      margin: 0px;
+      margin-top: 20px;
+    }
+    .storiesBox2 {
+      width: 350px;
+      margin: 0px;
+      margin-top: 20px;
+    }
+    .storiesBox3 {
+      width: 350px;
+      margin: 0px;
+      margin-top: 20px;
+    }
+    .headingMain {
+      flex-direction: column;
+      align-items: center;
+    }
+    .quoteImg{
+      display: none;
+    }
+    .inspiredPara {
+      margin-left: 0px !important;
+      display: flex;
+      justify-content: center;
+    }
+  
+  }

@@ -1,0 +1,37 @@
+.main-div {
+    width: 90%;
+  }
+  
+  .main-heading {
+    color: #b00000;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .main-para {
+    text-align: justify;
+    color: var(--text-gray-900, #18191f);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 40px; */
+  }
+  
+  .sub-heading {
+    color: #b00000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .sub-para {
+    color: #000;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 40px; */
+  }

@@ -1,0 +1,62 @@
+.contactus-heading{
+    width: 95%;
+    color: #B00000;
+    font-weight: 700;
+    font-size: 35px;
+}
+.contactus-box-container{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactus-box{
+    width: 360px;
+    height: 280px;
+    border: 1px solid lightgrey;
+    margin: 40px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px grey;
+}
+.contactus-title{
+    font-weight: 600;
+    font-size: 34px;
+}
+.contactus-info{
+    width: 60%;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.contactus-info2{
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:1150px){
+    .contactus-box-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .contactus-box{
+        width: 260px;
+        height: 240px;
+    }
+    .contactus-title{
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .contactus-info{
+        width: 90%;
+    }
+}
+@media only screen and (min-width:1500px){
+    .contactus-box-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
