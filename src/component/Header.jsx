@@ -33,9 +33,6 @@ export default function Header() {
   const gotopr3 = () => {
     navigate("/productrange3");
   };
-  const gotopr4 = () => {
-    navigate("/productrange4");
-  };
   const gotopr5 = () => {
     navigate("/productrange5");
   };

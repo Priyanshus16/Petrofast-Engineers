@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
-import Imgcomp from "../component/Imgcomp";
 import { Button } from "@mui/material";
 import img from "../component/Mlogo/image4.png";
 import img1 from "../component/Mlogo/pr2-image1.png";
@@ -10,7 +9,6 @@ import img3 from "../component/Mlogo/pr2-image3.png";
 import img4 from "../component/Mlogo/pr2-image4.png";
 import img5 from "../component/Mlogo/pr2-image5.png";
 import img6 from "../component/Mlogo/pr2-image6.png";
-import img7 from "../component/Mlogo/pr2-image7.png";
 import img8 from "../component/Mlogo/pr2-image8.png";
 
 export default function Productrange2() {

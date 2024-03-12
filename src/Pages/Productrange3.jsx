@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
-import Imgcomp from "../component/Imgcomp";
 import { Button } from "@mui/material";
 import img from "../component/Mlogo/image5.png";
 import img1 from "../component/Mlogo/pr3-image1.png";

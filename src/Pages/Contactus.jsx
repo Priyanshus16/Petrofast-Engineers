@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../component/Header";
-import Imgcomp from "../component/Imgcomp";
 import Footer from "../component/Footer";
 import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
