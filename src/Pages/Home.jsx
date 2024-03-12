@@ -1,9 +1,5 @@
 import React from "react";
-import quoteLogo from "../component/Images/Quote Mark.png";
 import "../Pages/style/Home.css";
-import storyLogo1 from "../component/Images/Crypto-Learn-Invest-bw-oyl3g9g1y9n29md6xkfxpgebbw87gdfbb0h0u1ci68 2.png";
-import storyLogo2 from "../component/Images/Jerry-Piping-bw-oyl3forlrwur6778abi56lm69f24r157w64c9y75z4 2.png";
-import storyLogo3 from "../component/Images/LeeveOn-Branding-bw-oyl3fl090kplvrcow9vmwmkbvvknw8qajniecucqo0 2.png";
 import homeimg from "../component/Images/homeImg1.png";
 import Header from "../component/Header";
 import Footer from "../component/Footer";

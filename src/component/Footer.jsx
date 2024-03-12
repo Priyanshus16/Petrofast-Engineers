@@ -24,28 +24,28 @@ export default function Footer() {
     <>
       <div id="footer">
         {/* <!-- f --> */}
-        <footer class="text-center text-lg-start  text-muted">
+        <footer className="text-center text-lg-start  text-muted">
           {/* <!-- Section: Social media --> */}
-          <section class="d-flex justify-content-center justify-content-lg-between p-3 " />
+          <section className="d-flex justify-content-center justify-content-lg-between p-3 " />
 
           {/* </section>  */}
           {/* <!-- Section: Social media --> */}
 
           {/* <!-- Section: Links  --> */}
-          <section class="">
-            <div class="container text-center text-md-start mt-5">
+          <section className="">
+            <div className="container text-center text-md-start mt-5">
               {/* <!-- Grid row --> */}
-              <div class="row mt-3">
+              <div className="row mt-3">
                 {/* <!-- Grid column --> */}
                 <div
-                  class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+                  className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
                   style={{ color: "white" }}
                 >
                   {/* <!-- Content --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem"></i>Company Info.
+                  <h6 className="text-uppercase fw-bold mb-4">
+                    <i className="fas fa-gem"></i>Company Info.
                   </h6>
-                  <ul class="text-center" style={{textAlign:'center'}}>
+                  <ul className="text-center" style={{textAlign:'center'}}>
                     <li onClick={() => gotohome()}>Home</li>
                     <li onClick={() => gotoaboutus()}>About Us</li>
                     <li onClick={() => gotocertificate()}>
@@ -58,11 +58,11 @@ export default function Footer() {
 
                 {/* <!-- Grid column --> */}
                 <div
-                  class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+                  className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
                   style={{ color: "white" }}
                 >
                   {/* <!-- Links --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">Customer Support </h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Customer Support </h6>
                   <ul>
                     <li onClick={() => gotoenquiry()}>Enquiry Form</li>
                     <li onClick={() => gotocontactus()}>Contact Us</li>
@@ -72,11 +72,11 @@ export default function Footer() {
 
                 {/* <!-- Grid column --> */}
                 <div
-                  class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+                  className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
                   style={{ color: "white" }}
                 >
                   {/* <!-- Links --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">Downloads </h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Downloads </h6>
                   <ul>
                     <li>Product Catalogue </li>
                     <li>Fasteners Bolt Standards</li>
@@ -94,7 +94,7 @@ export default function Footer() {
           {/* <!-- Section: Links  --> */}
 
           {/* <!-- Copyright --> */}
-          <div class=" p-4 text-center " style={{ color: "white" }}>
+          <div className=" p-4 text-center " style={{ color: "white" }}>
             © Copyright. Petrofast Engineers All rights reserved.
           </div>
         </footer>
